@@ -5,7 +5,7 @@ const Navbar = () => {
   const state = useSelector((state) => state);
   console.log(state);
   return (
-    <nav className="nav-wrapper">
+    <nav className="nav-wrapper" style={{ background: "#1976d2" }}>
       <div className="container">
         <Link to="/" className="brand-logo">
           Softoo
